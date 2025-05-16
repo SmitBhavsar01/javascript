@@ -3,7 +3,7 @@
 /*
  number -- range till 2 to power 53
  bigint --- big numbers
- string ---in double or single " ' "
+ string ---in double or single " ' " 
  boolean --- true/false
  null----standalone value
  symbol -- for uniquenes find 

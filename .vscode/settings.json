@@ -1,0 +1,9 @@
+{
+    "editor.cursorBlinking": "solid",
+    "editor.fontSize": 25,
+    "editor.cursorStyle": "line",
+    "editor.cursorSmoothCaretAnimation": "off",
+    "editor.cursorSurroundingLines": 0,
+    "editor.cursorSurroundingLinesStyle": "default",
+    "editor.cursorWidth": 0
+}
