@@ -1,9 +1,10 @@
 // singleton
 //Object.create -- like constructor
 
-// object literals
+//below  object literals
 const mySym = Symbol("key1")
 
+//  literals
 const JsUser = {
     name : "smit",
     "full name": "smit bhavsar",
