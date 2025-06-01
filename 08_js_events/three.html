@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="display">code</h1>
+    <button id="start">start</button>
+    <button id="stop">stop</button>
+</body>
+<script>
+    let intervalid ;
+
+const date = function(){
+    console.log("smit",Date.now());
+    
+}
+
+
+const startprint = document.getElementById('start').addEventListener('click',function(){
+if (!intervalid) {
+    intervalid = setInterval(date,1000)
+}
+    
+    
+
+})
+
+const stopprint = document.getElementById('stop').addEventListener('click',function (){
+clearInterval(intervalid);
+intervalid = null;
+
+})
+
+
+
+ 
+</script>
+
+</html>

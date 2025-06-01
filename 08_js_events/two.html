@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="display">code</h1>
+    <button id="stop">stop</button>
+</body>
+<script>
+    //async js 
+    //arrow function
+    const saysmit = () => {
+        console.log("smit");
+
+    }
+    const s = function () {
+        document.getElementById('display').innerHTML = " bhavsar smit"
+    }
+
+    const changeme = setTimeout(s, 2000);
+    const btn = document.getElementById('stop').addEventListener('click', function () {
+        clearTimeout(changeme)
+        console.log("stopped");
+
+    })
+
+
+
+</script>
+
+</html>
